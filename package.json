@@ -2,7 +2,7 @@
   "name": "demoreact",
   "version": "1.0.0",
   "scripts": {
-    "build": "babel src -d lib"
+    "start": "npm-run-all --parallel open:src"
   },
   "description": "Simple React example app",
   "devDependencies": {
